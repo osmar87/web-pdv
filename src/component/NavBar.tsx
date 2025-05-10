@@ -3,22 +3,24 @@
 import { useState } from "react";
 import Image from "next/image";
 
+import logo from '../../public/logo.png'
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+    <nav className="border-gray-200 bg-gray-300 dark:bg-gray-800 dark:border-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
-            src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5d98-61f7-a454-b305ca6a9b0c/raw?se=2025-05-10T14%3A41%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-10T13%3A19%3A27Z&ske=2025-05-11T13%3A19%3A27Z&sks=b&skv=2024-08-04&sig=TWNT1gj1FBtoV/RJRQHthbrMQzY7/tAlD/rlvt8yEuA%3D"
+            src={logo}
             className="h-8"
-            alt="Flowbite Logo"
+            alt="Mini PDV Logo"
             width={32}
             height={32}
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite
+            Mini PDV
           </span>
         </a>
         <button

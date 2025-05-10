@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import logo from '../../public/logo.png'
 export default function Home() {
   return (
     <section className="bg-gray-50 dark:bg-gray-900">
@@ -7,12 +7,12 @@ export default function Home() {
         <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
           <Image
             className="w-8 h-8 mr-2"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
+            src={logo}
             alt="logo"
             width={32}
             height={32}
           />
-          Web-PDV
+        Mini PDV
         </a>
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
