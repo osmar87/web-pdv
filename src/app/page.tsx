@@ -16,7 +16,7 @@ export default function Home() {
         </a>
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-            <h3 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+            <h3 className="text-ms font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
               Venda com leveza, controle com precisão.
             </h3>
             <form className="space-y-4 md:space-y-6" action="#">
