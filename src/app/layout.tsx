@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   title: "Ponto Ágil",
   description: "Seu talão de venda online",
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
+    icon: '/icon.png',
+    shortcut: '/icon.png',
     apple: '/apple-touch-icon.png',
   },
 };
