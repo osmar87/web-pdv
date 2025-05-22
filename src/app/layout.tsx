@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ponto Ágil",
   description: "Seu talão de venda online",
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
